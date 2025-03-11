@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ex3_FilterByPrice")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+58756ce448b9834f3a9f6e86563f31cf9304de52")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ex3_FilterByPrice")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ex3_FilterByPrice")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
