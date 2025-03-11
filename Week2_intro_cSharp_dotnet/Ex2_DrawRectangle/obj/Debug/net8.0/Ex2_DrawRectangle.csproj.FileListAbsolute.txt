@@ -1,0 +1,14 @@
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/bin/Debug/net8.0/Ex2_DrawRectangle
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/bin/Debug/net8.0/Ex2_DrawRectangle.deps.json
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/bin/Debug/net8.0/Ex2_DrawRectangle.runtimeconfig.json
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/bin/Debug/net8.0/Ex2_DrawRectangle.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/bin/Debug/net8.0/Ex2_DrawRectangle.pdb
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/obj/Debug/net8.0/Ex2_DrawRectangle.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/obj/Debug/net8.0/Ex2_DrawRectangle.AssemblyInfoInputs.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/obj/Debug/net8.0/Ex2_DrawRectangle.AssemblyInfo.cs
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/obj/Debug/net8.0/Ex2_DrawRectangle.csproj.CoreCompileInputs.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/obj/Debug/net8.0/Ex2_DrawRectangle.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/obj/Debug/net8.0/refint/Ex2_DrawRectangle.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/obj/Debug/net8.0/Ex2_DrawRectangle.pdb
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/obj/Debug/net8.0/Ex2_DrawRectangle.genruntimeconfig.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex2_DrawRectangle/obj/Debug/net8.0/ref/Ex2_DrawRectangle.dll

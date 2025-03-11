@@ -1,0 +1,14 @@
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/bin/Debug/net8.0/Ex1_TemperatureConversion
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/bin/Debug/net8.0/Ex1_TemperatureConversion.deps.json
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/bin/Debug/net8.0/Ex1_TemperatureConversion.runtimeconfig.json
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/bin/Debug/net8.0/Ex1_TemperatureConversion.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/bin/Debug/net8.0/Ex1_TemperatureConversion.pdb
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/obj/Debug/net8.0/Ex1_TemperatureConversion.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/obj/Debug/net8.0/Ex1_TemperatureConversion.AssemblyInfoInputs.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/obj/Debug/net8.0/Ex1_TemperatureConversion.AssemblyInfo.cs
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/obj/Debug/net8.0/Ex1_TemperatureConversion.csproj.CoreCompileInputs.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/obj/Debug/net8.0/Ex1_TemperatureConversion.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/obj/Debug/net8.0/refint/Ex1_TemperatureConversion.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/obj/Debug/net8.0/Ex1_TemperatureConversion.pdb
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/obj/Debug/net8.0/Ex1_TemperatureConversion.genruntimeconfig.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex1_TemperatureConversion/obj/Debug/net8.0/ref/Ex1_TemperatureConversion.dll

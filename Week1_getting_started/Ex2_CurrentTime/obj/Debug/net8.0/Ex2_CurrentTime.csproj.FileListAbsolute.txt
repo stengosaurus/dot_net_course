@@ -1,0 +1,14 @@
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/bin/Debug/net8.0/Ex2_CurrentTime
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/bin/Debug/net8.0/Ex2_CurrentTime.deps.json
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/bin/Debug/net8.0/Ex2_CurrentTime.runtimeconfig.json
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/bin/Debug/net8.0/Ex2_CurrentTime.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/bin/Debug/net8.0/Ex2_CurrentTime.pdb
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/obj/Debug/net8.0/Ex2_CurrentTime.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/obj/Debug/net8.0/Ex2_CurrentTime.AssemblyInfoInputs.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/obj/Debug/net8.0/Ex2_CurrentTime.AssemblyInfo.cs
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/obj/Debug/net8.0/Ex2_CurrentTime.csproj.CoreCompileInputs.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/obj/Debug/net8.0/Ex2_CurrentTime.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/obj/Debug/net8.0/refint/Ex2_CurrentTime.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/obj/Debug/net8.0/Ex2_CurrentTime.pdb
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/obj/Debug/net8.0/Ex2_CurrentTime.genruntimeconfig.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex2_CurrentTime/obj/Debug/net8.0/ref/Ex2_CurrentTime.dll

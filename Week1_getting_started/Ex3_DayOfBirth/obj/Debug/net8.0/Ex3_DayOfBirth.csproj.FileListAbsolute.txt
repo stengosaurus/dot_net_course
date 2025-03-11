@@ -1,0 +1,14 @@
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/bin/Debug/net8.0/Ex3_DayOfBirth
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/bin/Debug/net8.0/Ex3_DayOfBirth.deps.json
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/bin/Debug/net8.0/Ex3_DayOfBirth.runtimeconfig.json
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/bin/Debug/net8.0/Ex3_DayOfBirth.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/bin/Debug/net8.0/Ex3_DayOfBirth.pdb
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/obj/Debug/net8.0/Ex3_DayOfBirth.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/obj/Debug/net8.0/Ex3_DayOfBirth.AssemblyInfoInputs.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/obj/Debug/net8.0/Ex3_DayOfBirth.AssemblyInfo.cs
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/obj/Debug/net8.0/Ex3_DayOfBirth.csproj.CoreCompileInputs.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/obj/Debug/net8.0/Ex3_DayOfBirth.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/obj/Debug/net8.0/refint/Ex3_DayOfBirth.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/obj/Debug/net8.0/Ex3_DayOfBirth.pdb
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/obj/Debug/net8.0/Ex3_DayOfBirth.genruntimeconfig.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex3_DayOfBirth/obj/Debug/net8.0/ref/Ex3_DayOfBirth.dll

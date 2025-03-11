@@ -1,0 +1,14 @@
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/bin/Debug/net8.0/Ex3_Countdown
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/bin/Debug/net8.0/Ex3_Countdown.deps.json
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/bin/Debug/net8.0/Ex3_Countdown.runtimeconfig.json
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/bin/Debug/net8.0/Ex3_Countdown.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/bin/Debug/net8.0/Ex3_Countdown.pdb
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/obj/Debug/net8.0/Ex3_Countdown.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/obj/Debug/net8.0/Ex3_Countdown.AssemblyInfoInputs.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/obj/Debug/net8.0/Ex3_Countdown.AssemblyInfo.cs
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/obj/Debug/net8.0/Ex3_Countdown.csproj.CoreCompileInputs.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/obj/Debug/net8.0/Ex3_Countdown.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/obj/Debug/net8.0/refint/Ex3_Countdown.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/obj/Debug/net8.0/Ex3_Countdown.pdb
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/obj/Debug/net8.0/Ex3_Countdown.genruntimeconfig.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week2_intro_cSharp_dotnet/Ex3_Countdown/obj/Debug/net8.0/ref/Ex3_Countdown.dll

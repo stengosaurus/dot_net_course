@@ -1,0 +1,14 @@
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/bin/Debug/net8.0/Ex1_PersonalDetails
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/bin/Debug/net8.0/Ex1_PersonalDetails.deps.json
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/bin/Debug/net8.0/Ex1_PersonalDetails.runtimeconfig.json
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/bin/Debug/net8.0/Ex1_PersonalDetails.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/bin/Debug/net8.0/Ex1_PersonalDetails.pdb
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/obj/Debug/net8.0/Ex1_PersonalDetails.GeneratedMSBuildEditorConfig.editorconfig
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/obj/Debug/net8.0/Ex1_PersonalDetails.AssemblyInfoInputs.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/obj/Debug/net8.0/Ex1_PersonalDetails.AssemblyInfo.cs
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/obj/Debug/net8.0/Ex1_PersonalDetails.csproj.CoreCompileInputs.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/obj/Debug/net8.0/Ex1_PersonalDetails.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/obj/Debug/net8.0/refint/Ex1_PersonalDetails.dll
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/obj/Debug/net8.0/Ex1_PersonalDetails.pdb
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/obj/Debug/net8.0/Ex1_PersonalDetails.genruntimeconfig.cache
+/Users/user/Documents/GitHub/dotnet_uws_full_course/Week1_getting_started/Ex1_PersonalDetails/obj/Debug/net8.0/ref/Ex1_PersonalDetails.dll
