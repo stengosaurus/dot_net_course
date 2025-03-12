@@ -51,3 +51,13 @@
 10. If you get a security warning in the browser, run:
     dotnet dev-certs https --trust
 // Trust ASP.NET Core HTTPS Development Certificate
+
+
+OPTIONAL steps:
+
+1. Create a second page:
+    touch Movies.cshtml && Movies.cshtml.cs
+    // Add the following code
+
+2. Add a Nav Link to connect to this new page
+    edit the _Layout.cshtml file to include an a tag linking to this page
