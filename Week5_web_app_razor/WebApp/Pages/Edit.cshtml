@@ -1,0 +1,36 @@
+@page
+@model WebApp.Pages.EditActor
+@using FilmEntities
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Actor</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 p-6">
+    <h1 class="text-3xl font-bold text-center">Edit Actor</h1>
+
+    <form method="post" class="max-w-lg mx-auto bg-white p-6 shadow-md rounded">
+        @Html.AntiForgeryToken()
+        <input type="hidden" name="hdnActorID" value="@Model.Actor.ActorID">
+        
+        <div class="mb-4">
+            <label class="block text-gray-700">First Name:</label>
+            <input type="text" name="tbxFirstname" value="@Model.Actor.Firstname" class="w-full px-3 py-2 border rounded">
+        </div>
+
+        <div class="mb-4">
+            <label class="block text-gray-700">Last Name:</label>
+            <input type="text" name="tbxLastname" value="@Model.Actor.Lastname" class="w-full px-3 py-2 border rounded">
+        </div>
+
+        <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded">Save Changes</button>
+    </form>
+</body>
+
+</html>

@@ -9,39 +9,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web App</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <h1>@Model.Heading</h1>
-    <table border="1">
-        <tr>
-            <th>Actor ID</th>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>&nbsp;</th>
-        </tr>
-        @foreach (Actor actor in @Model.Actors)
-        {
-            <tr>
-                <td>@actor.ActorID</td>
-                <td>@actor.Firstname</td>
-                <td>@actor.Lastname</td>
-                <td>
-                    <form action="~/Delete" method="post">
-                        @Html.AntiForgeryToken()
-                        <input type="hidden" name="hdnActorID" value="@actor.ActorID">
-                        <input type="submit" value="Delete">
-                    </form>
-                </td>
+<body class="bg-gray-100 p-6">
+    <h1 class="text-3xl font-bold mb-4 text-center">Actors</h1>
+
+    <table class="table-auto w-full border-collapse border border-gray-300 shadow-lg bg-white">
+        <thead>
+            <tr class="bg-blue-600 text-white">
+                <th class="border px-4 py-2">Actor ID</th>
+                <th class="border px-4 py-2">First Name</th>
+                <th class="border px-4 py-2">Last Name</th>
+                <th class="border px-4 py-2">Actions</th>
             </tr>
-        }
+        </thead>
+        <tbody>
+            @foreach (Actor actor in @Model.Actors)
+            {
+                <tr class="hover:bg-gray-200">
+                    <td class="border px-4 py-2">@actor.ActorID</td>
+                    <td class="border px-4 py-2">@actor.Firstname</td>
+                    <td class="border px-4 py-2">@actor.Lastname</td>
+                    <td class="border px-4 py-2 flex space-x-2">
+                        <form action="~/Edit" method="get">
+                            <input type="hidden" name="hdnActorID" value="@actor.ActorID">
+                            <button class="bg-yellow-500 text-white px-3 py-1 rounded">Edit</button>
+                        </form>
+                        <form action="~/Delete" method="post">
+                            @Html.AntiForgeryToken()
+                            <input type="hidden" name="hdnActorID" value="@actor.ActorID">
+                            <button class="bg-red-500 text-white px-3 py-1 rounded">Delete</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
     </table>
-    <form action="~/Insert" method="post">
+
+    <h2 class="text-xl font-bold mt-6">Add New Actor</h2>
+    <form action="~/Insert" method="post" class="mt-4 bg-white p-4 shadow-md rounded">
         @Html.AntiForgeryToken()
-        <p>First Name: <input type="text" name="tbxFirstname"></p>
-        <p>Last Name: <input type="text" name="tbxLastname"></p>
-        <p><input type="submit" value="Insert"></p>
+        <div class="mb-4">
+            <label class="block text-gray-700">First Name:</label>
+            <input type="text" name="tbxFirstname" class="w-full px-3 py-2 border rounded">
+        </div>
+        <div class="mb-4">
+            <label class="block text-gray-700">Last Name:</label>
+            <input type="text" name="tbxLastname" class="w-full px-3 py-2 border rounded">
+        </div>
+        <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded">Insert</button>
     </form>
+
+
+    
 </body>
 
 </html>
