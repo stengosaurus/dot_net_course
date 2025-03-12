@@ -1,0 +1,45 @@
+@page
+@model WebApp.Pages.ViewMovies
+@using FilmEntities
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+
+    <div class="container mx-auto p-6">
+        <h1 class="text-3xl font-bold text-center mb-6">Movie List</h1>
+
+        <div class="bg-white shadow-md rounded-lg p-6">
+            <table class="min-w-full bg-white border border-gray-200 rounded-lg">
+                <thead class="bg-gray-200 text-gray-700">
+                    <tr>
+                        <th class="py-3 px-4 text-left border-b">Movie ID</th>
+                        <th class="py-3 px-4 text-left border-b">Title</th>
+                        <th class="py-3 px-4 text-left border-b">Year</th>
+                        <th class="py-3 px-4 text-left border-b">Actor</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var movie in Model.Films)
+                    {
+                        <tr class="border-b hover:bg-gray-100 transition">
+                            <td class="py-3 px-4">@movie.FilmID</td>
+                            <td class="py-3 px-4 font-semibold">@movie.Title</td>
+                            <td class="py-3 px-4">@movie.Year</td>
+                            <td class="py-3 px-4">@movie.Firstname @movie.Lastname</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+
+
+    </div>
+
+</body>
+</html>
