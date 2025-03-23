@@ -8,7 +8,7 @@ builder.Services.AddRazorPages();
 
 // ✅ Add ChinookContext for dependency injection
 builder.Services.AddDbContext<ChinookContext>(options =>
-    options.UseSqlite("Data Source=chinook.db"));
+    options.UseSqlite("Data Source=chinook.db; Foreign keys=false"));
 
 var app = builder.Build();
 

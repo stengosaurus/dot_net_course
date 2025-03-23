@@ -6,16 +6,18 @@ using Microsoft.EntityFrameworkCore;
 
 namespace Chinook.Pages.Albums
 {
-    public class DetailsModel : PageModel
+    public class DeleteModel : PageModel
     {
         private readonly ChinookContext _context;
 
-        public DetailsModel(ChinookContext context)
+        public DeleteModel(ChinookContext context)
         {
             _context = context;
         }
 
-        public Album? Album { get; set; }
+        [BindProperty]
+        public Album Album { get; set; }
+
 
         public async Task<IActionResult> OnGetAsync(int? id)
         {
@@ -23,12 +25,26 @@ namespace Chinook.Pages.Albums
 
             Album = await _context.Albums
                 .Include(a => a.Artist)
-                .Include(a => a.Tracks)
                 .FirstOrDefaultAsync(a => a.AlbumId == id);
 
             if (Album == null) return NotFound();
 
             return Page();
+        }
+
+        public async Task<IActionResult> OnPostAsync(int? id)
+        {
+            if (id == null) return NotFound();
+
+            var album = await _context.Albums.FindAsync(id);
+
+            if (album != null)
+            {
+                _context.Albums.Remove(album);
+                await _context.SaveChangesAsync();
+            }
+
+            return RedirectToPage("/Index");
         }
     }
 }

@@ -18,8 +18,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /Users/user/Documents/GitHub/dotnet_uws_full_course/Chinook
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/user/Documents/GitHub/dotnet_uws_full_course/Chinook/Pages/Albums/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWxidW1zL0RldGFpbHMuY3NodG1s
+[/Users/user/Documents/GitHub/dotnet_uws_full_course/Chinook/Pages/Albums/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWxidW1zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Documents/GitHub/dotnet_uws_full_course/Chinook/Pages/Albums/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWxidW1zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/user/Documents/GitHub/dotnet_uws_full_course/Chinook/Pages/Albums/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQWxidW1zL0VkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/user/Documents/GitHub/dotnet_uws_full_course/Chinook/Pages/Error.cshtml]

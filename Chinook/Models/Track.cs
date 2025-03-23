@@ -15,7 +15,7 @@ namespace Chinook.Models
         public int AlbumId { get; set; }
 
         [Column("composer")]
-        public string? Composer { get; set; }
+        public string Composer { get; set; }
 
         [Column("milliseconds")]
         public int Milliseconds { get; set; }
@@ -27,6 +27,7 @@ namespace Chinook.Models
         public decimal UnitPrice { get; set; }
 
         // Navigation
-        public Album? Album { get; set; }
+        public Album Album { get; set; }
+
     }
 }
