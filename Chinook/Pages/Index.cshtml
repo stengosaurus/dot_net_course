@@ -1,0 +1,14 @@
+﻿@page
+@model Chinook.Pages.IndexModel
+
+<h1>All Albums</h1>
+
+<ul>
+@foreach (var album in Model.Albums)
+{
+    <li>
+        @album.Title -
+        <a asp-page="/Albums/Details" asp-route-id="@album.AlbumId">View Details</a>
+    </li>
+}
+</ul>

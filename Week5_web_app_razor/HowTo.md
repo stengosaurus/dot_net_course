@@ -26,6 +26,8 @@
         // you should see Films and Actors tables listed
         // ctrl+D will exit sqlite3 console app
 
+        
+
 5. Set Up Entity Framework Context and Models
     5.1 Create a FilmEntities.cs file
     5.2 Create a FilmContext.cs file

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ex1_ViewShippers")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+04141286d3279c55c54e7d7598cba3abf0fd4753")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f75809d16316e17939f0dd77c3f8ef42b67531eb")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ex1_ViewShippers")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ex1_ViewShippers")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
