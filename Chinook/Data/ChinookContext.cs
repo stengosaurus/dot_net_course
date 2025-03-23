@@ -11,5 +11,6 @@ namespace Chinook.Data
         public DbSet<Album> Albums => Set<Album>();
         public DbSet<Artist> Artists => Set<Artist>();
         public DbSet<Track> Tracks => Set<Track>();
+
     }
 }

@@ -3,12 +3,34 @@
 
 <h1>All Albums</h1>
 
-<ul>
-@foreach (var album in Model.Albums)
-{
-    <li>
-        @album.Title -
-        <a asp-page="/Albums/Details" asp-route-id="@album.AlbumId">View Details</a>
-    </li>
-}
-</ul>
+<a asp-page="/Albums/Create" class="btn btn-primary mb-3">Add New Album</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Album</th>
+            <th>Artist</th>
+            <th>Details</th>
+            <th>Update</th>
+            <th>Delete</th>
+        </tr>
+    </thead>
+    <tbody>
+    @foreach (var album in Model.Albums)
+    {
+        <tr>
+            <td>@album.Title</td>
+            <td>@album.Artist?.Name</td>
+            <td>
+                <a asp-page="/Albums/Details" asp-route-id="@album.AlbumId" class="btn btn-sm btn-info">Details</a>
+            </td>
+            <td>
+                <a asp-page="/Albums/Edit" asp-route-id="@album.AlbumId" class="btn btn-sm btn-warning">Edit</a>
+            </td>
+            <td>
+                <a asp-page="/Albums/Delete" asp-route-id="@album.AlbumId" class="btn btn-sm btn-danger">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
