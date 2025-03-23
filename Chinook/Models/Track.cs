@@ -17,6 +17,9 @@ namespace Chinook.Models
         [Column("composer")]
         public string Composer { get; set; }
 
+        [Column("mediatypeid")]
+        public int MediaTypeId { get; set; }
+
         [Column("milliseconds")]
         public int Milliseconds { get; set; }
 

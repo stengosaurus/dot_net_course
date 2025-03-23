@@ -1,0 +1,87 @@
+@page
+@model Chinook.Pages.Albums.CreateModel
+
+<h1>Add New Album</h1>
+
+<button type="button" class="btn btn-outline-info mt-3" onclick="populateForm()">Populate Dummy Form</button>
+
+
+<form method="post">
+    <div class="form-group">
+        <label>Album Title</label>
+        <input asp-for="Title" class="form-control" id="Title"/>
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-3">
+        <label>Artist Name</label>
+        <input asp-for="ArtistName" list="artistList" id="ArtistName" class="form-control" />
+        <datalist id="artistList">
+            @foreach (var artist in Model.Artists)
+            {
+                <option value="@artist.Name" />
+            }
+        </datalist>
+        <span asp-validation-for="ArtistName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group mt-4">
+        <label>Track List</label>
+        <div id="trackContainer">
+            <input type="text" name="TrackNames" class="form-control mb-2" placeholder="Track name"/>
+        </div>
+        <button type="button" class="btn btn-sm btn-outline-success" onclick="addTrack()">Add Track</button>
+        <button type="button" class="btn btn-sm btn-outline-danger" onclick="removeTrack()">Remove Last</button>
+    </div>
+
+    <button type="submit" class="btn btn-primary mt-4">Insert Album</button>
+    <a asp-page="/Index" class="btn btn-secondary mt-4">Cancel</a>
+</form>
+
+@section Scripts {
+    <script>
+        function populateForm() {
+            // ✅ Correct IDs based on your input fields
+            document.getElementById("Title").value = "Comfort In Sound";
+            document.getElementById("ArtistName").value = "Feeder";
+
+            const trackContainer = document.getElementById("trackContainer");
+            trackContainer.innerHTML = ""; // Clear any existing tracks
+
+            const trackList = [
+                "Just the Way I'm Feeling",
+                "Come Back Around",
+                "Helium",
+                "Child in You",
+                "Comfort in Sound",
+                "Forget About Tomorrow",
+                "Summer's Gone",
+                "Godzilla",
+                "Quick Fade",
+                "Find the Colour",
+                "Love Pollution",
+                "Moonshine"
+            ];
+
+            trackList.forEach(title => addTrack(title));
+        }
+
+        function addTrack(name = "") {
+            const container = document.getElementById("trackContainer");
+            const input = document.createElement("input");
+            input.type = "text";
+            input.name = "TrackNames";
+            input.className = "form-control mb-2";
+            input.placeholder = "Track name";
+            input.value = name; // ✅ Use name param
+            container.appendChild(input);
+        }
+
+        function removeTrack() {
+            const container = document.getElementById("trackContainer");
+            if (container.children.length > 1) {
+                container.removeChild(container.lastChild);
+            }
+        }
+    </script>
+}

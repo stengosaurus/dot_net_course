@@ -14,13 +14,22 @@ public class IndexModel : PageModel
         _context = context;
     }
 
-    // ✅ Add this:
     public List<Album> Albums { get; set; } = new();
 
-    public async Task OnGetAsync()
+    public string? SearchTerm { get; set; }
+
+    public async Task OnGetAsync(string? search = null)
     {
-        Albums = await _context.Albums
-            .Include(a => a.Artist)
-            .ToListAsync();
-    }
+        var query = _context.Albums.Include(a => a.Artist).AsQueryable();
+
+        if (!string.IsNullOrWhiteSpace(search))
+        {
+            query = query.Where(a =>
+                a.Title.Contains(search) ||
+                a.Artist.Name.Contains(search));
+        }
+
+        Albums = await query.ToListAsync();
+        SearchTerm = search;
+    } 
 }
