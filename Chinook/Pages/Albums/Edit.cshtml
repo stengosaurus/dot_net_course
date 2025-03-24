@@ -19,6 +19,40 @@
         <span asp-validation-for="ArtistName" class="text-danger"></span>
     </div>
 
+    <div class="form-group mt-4">
+        <label>Track List</label>
+        <div id="trackContainer">
+            @for (int i = 0; i < Model.TrackNames.Count; i++)
+            {
+                <input type="text" name="TrackNames" value="@Model.TrackNames[i]" class="form-control mb-2" placeholder="Track name" />
+            }
+        </div>
+        <button type="button" class="btn btn-sm btn-outline-success" onclick="addTrack()">Add Track</button>
+        <button type="button" class="btn btn-sm btn-outline-danger" onclick="removeTrack()">Remove Last</button>
+    </div>
+
     <button type="submit" class="btn btn-primary mt-3">Save</button>
     <a asp-page="/Index" class="btn btn-secondary mt-3">Cancel</a>
 </form>
+
+@section Scripts {
+    <script>
+        function addTrack(name = "") {
+            const container = document.getElementById("trackContainer");
+            const input = document.createElement("input");
+            input.type = "text";
+            input.name = "TrackNames";
+            input.className = "form-control mb-2";
+            input.placeholder = "Track name";
+            input.value = name;
+            container.appendChild(input);
+        }
+
+        function removeTrack() {
+            const container = document.getElementById("trackContainer");
+            if (container.children.length > 0) {
+                container.removeChild(container.lastChild);
+            }
+        }
+    </script>
+}
