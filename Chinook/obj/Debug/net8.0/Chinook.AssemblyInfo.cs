@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Chinook")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c47de158196af3e36c3fb491f4928ea20c65891")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6827d4b86c2f625689a4c9a06689ef41bc63474c")]
 [assembly: System.Reflection.AssemblyProductAttribute("Chinook")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Chinook")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

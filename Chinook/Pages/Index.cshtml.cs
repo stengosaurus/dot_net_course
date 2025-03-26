@@ -16,9 +16,9 @@ public class IndexModel : PageModel
 
     public List<Album> Albums { get; set; } = new();
 
-    public string? SearchTerm { get; set; }
+    public string SearchTerm { get; set; }
 
-    public async Task OnGetAsync(string? search = null)
+    public async Task OnGetAsync(string search)
     {
         var query = _context.Albums.Include(a => a.Artist).AsQueryable();
 
@@ -31,5 +31,5 @@ public class IndexModel : PageModel
 
         Albums = await query.ToListAsync();
         SearchTerm = search;
-    } 
+    }
 }
