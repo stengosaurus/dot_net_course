@@ -3,10 +3,24 @@
 
 <h1>All Albums</h1>
 
-<form method="get" class="mb-3 d-flex" role="search">
-    <input type="text" name="search" value="@Model.SearchTerm" class="form-control me-2" placeholder="Search albums or artists..." />
+<form method="get" class="mb-2 d-flex align-items-center gap-2 flex-wrap" role="search">
+    <input type="text"
+           name="search"
+           value="@Model.SearchTerm"
+           class="form-control"
+           placeholder="Search albums or artists..."
+           style="width: 250px;" />
+
     <button type="submit" class="btn btn-outline-primary">Search</button>
+
+    <input type="hidden" name="sortOrder" value="@(Model.CurrentSort == "asc" ? "desc" : "asc")" />
+    <button type="submit"
+            class="btn btn-outline-secondary"
+            style="min-width: 70px; white-space: nowrap;">
+        Sort @(Model.CurrentSort == "asc" ? "Z–A" : "A–Z")
+    </button>
 </form>
+
 <a asp-page="/Albums/Create" class="btn btn-primary mb-3">Add New Album</a>
 
 <table class="table">
@@ -29,11 +43,10 @@
                 <a asp-page="/Albums/Details" asp-route-id="@album.AlbumId" class="btn btn-sm btn-info">Details</a>
             </td>
             <td>
-                <a asp-page="/Albums/Edit" asp-route-id="@album.AlbumId" class="btn btn-sm btn-warning">Edit</a>
-
+                <a asp-page="/Albums/Edit" asp-route-id="@album.AlbumId" class="btn btn-sm btn-warning"><i class="fas fa-pen-to-square"></i></a>
             </td>
             <td>
-                <a asp-page="/Albums/Delete" asp-route-id="@album.AlbumId" class="btn btn-sm btn-danger">Delete</a>
+                <a asp-page="/Albums/Delete" asp-route-id="@album.AlbumId" class="btn btn-sm btn-danger"><i class="fas fa-trash"></i></a>
             </td>
         </tr>
     }
